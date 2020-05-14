@@ -1,0 +1,679 @@
+<!-- 
+    Rental - Responsive HTML/HTML5 Bootstrap-4.3.1 template for ecommerce / Bussiness / Rental Business / Classified websites
+    Version: 1.0
+    Released 13/04/2020
+    Author: M M Aktaruzzaman
+    Copyright Reserved by IoTCage.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Rental : Product Name</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel='icon' href='favicon.ico' type='image/x-icon' sizes="64x64" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.4.3.1.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/iotcage-rental-main.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css">
+
+
+
+    <!-- CSS for carousel - Product details Page Only -->
+    <link rel="stylesheet" href="./css/ekko-lightbox-5.3.0.css">
+    <!-- /lightbox CSS for carousel - Product details Page Only -->
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- Header Main Menu -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./images/rentallbd-logo.png" height="50" class="d-inline-block align-top" alt="">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product-listing.html">View All Items</a>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav my-2 my-lg-0 navbar-right">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./login-signup.html"><i class="fa fa-user-plus"></i> Sign Up<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login-signup.html"><i class="fa fa-fingerprint"></i> Login</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a type="button" class="btn btn-outline-warning" href="./profile-postitem.html"><i
+                                class="fa fa-plus"></i> Rental
+                            Item</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <!-- /Header Main Menu -->
+
+
+        <section class="main-content">
+            <div class="container">
+                <div class="row">
+                    <!-- Left Menu -->
+                    <div class="col-12 col-md-3 bg-dark">
+                        <!-- Left Menu (Advance Search) toggle button -->
+                        <button class="btn btn-sm btn-block text-white" type="button" data-toggle="collapse"
+                            data-target="#advance-search-collapse">
+                            Advance Search <i class="fas fa-search"></i>
+                        </button>
+                        <!-- /Left Menu (Advance Search) toggle button -->
+
+                        <!-- Left Search & Category Suggestion Collapsable Div -->
+                        <div class="collapse d-md-block mb-5" id="advance-search-collapse">
+                            <!-- Left Search Form -->
+                            <form class="mb-5">
+                                <div class="form-group">
+                                    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option>Select Country</option>
+                                        <option>Bangladesh</option>
+                                        <option>Canada</option>
+                                        <option>USA</option>
+                                        <option>Germany</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option>Select State / Division</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option>Select City / Town</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                                        <option>Select Area</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-sm" id="formGroupExampleInput"
+                                        placeholder="Product Name">
+                                </div>
+                                <button class="btn btn-outline-warning btn-sm text-white w-100" type="submit">Search
+                                    <i class="fas fa-search fa-sm"></i></button>
+                            </form>
+                            <!-- /Left Search Form -->
+
+                            <!-- Related Category Suggestion -->
+                            <button class="btn btn-sm btn-block text-white">
+                                Related Categories
+                            </button>
+                            <div class="text-center">
+                                <a class="btn btn-outline-light btn-sm" href="#">Laptop</a>
+                                <a class="btn btn-outline-light btn-sm" href="#">Desktop Computer</a>
+                                <a class="btn btn-outline-light btn-sm" href="#">Computer Accessories</a>
+                                <a class="btn btn-outline-light btn-sm" href="#">Smart Phone</a>
+                                <a class="btn btn-outline-light btn-sm" href="#">Phone Accessories</a>
+                                <a class="btn btn-outline-light btn-sm" href="#">Television</a>
+                            </div>
+                            <!-- /Related Category Suggestion -->
+                        </div>
+                        <!-- /Left Search & Category Suggestion Collapsable Div -->
+
+
+                    </div>
+                    <!-- /Left Menu -->
+
+                    <!-- Main Contents -->
+                    <div class="col-12 col-md-9 bg-light">
+                        <div class="row">
+                            <!-- Product Headline -->
+                            <div class="col-12 text-center">
+                                <h3>Apple MacBook Pro</h3>
+                            </div>
+                            <!-- /Product Headline -->
+                            <!-- Carousel & Product Details -->
+                            <div class="col-12 col-md-6 align-self-center">
+
+                                <!-- Carousel Container-->
+                                <div class="col-12 mb-3">
+                                    <!-- Carousel -->
+                                    <div class="carousel-container position-relative">
+
+                                        <!-- Carousel Main Contents -->
+                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-slide-number="0">
+                                                    <img src="./images/item-img/item-1.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-1.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                                <div class="carousel-item" data-slide-number="1">
+                                                    <img src="./images/item-img/item-2.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-2.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                                <div class="carousel-item" data-slide-number="2">
+                                                    <img src="./images/item-img/item-3.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-3.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                                <div class="carousel-item" data-slide-number="3">
+                                                    <img src="./images/item-img/item-4.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-4.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                                <div class="carousel-item" data-slide-number="4">
+                                                    <img src="./images/item-img/item-5.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-5.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                                <div class="carousel-item" data-slide-number="5">
+                                                    <img src="./images/item-img/item-6.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-6.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                                <div class="carousel-item" data-slide-number="6">
+                                                    <img src="./images/item-img/item-7.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-7.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                                <div class="carousel-item" data-slide-number="7">
+                                                    <img src="./images/item-img/item-8.jpg" class="d-block w-100"
+                                                        alt="..." data-remote="./images/item-img/item-8.jpg"
+                                                        data-type="image" data-toggle="lightbox"
+                                                        data-gallery="example-gallery">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /Carousel Main Contents -->
+
+                                        <!-- Carousel Navigation -->
+                                        <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="row mx-0">
+                                                        <div id="carousel-selector-0"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2 selected"
+                                                            data-target="#myCarousel" data-slide-to="0">
+                                                            <img src="./images/item-img/item-1.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div id="carousel-selector-1"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2"
+                                                            data-target="#myCarousel" data-slide-to="1">
+                                                            <img src="./images/item-img/item-2.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div id="carousel-selector-2"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2"
+                                                            data-target="#myCarousel" data-slide-to="2">
+                                                            <img src="./images/item-img/item-3.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div id="carousel-selector-3"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2"
+                                                            data-target="#myCarousel" data-slide-to="3">
+                                                            <img src="./images/item-img/item-4.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div id="carousel-selector-4"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2"
+                                                            data-target="#myCarousel" data-slide-to="4">
+                                                            <img src="./images/item-img/item-5.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div id="carousel-selector-5"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2"
+                                                            data-target="#myCarousel" data-slide-to="5">
+                                                            <img src="./images/item-img/item-6.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="row mx-0">
+                                                        <div id="carousel-selector-6"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2"
+                                                            data-target="#myCarousel" data-slide-to="6">
+                                                            <img src="./images/item-img/item-7.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div id="carousel-selector-7"
+                                                            class="thumb col-4 col-sm-2 px-1 py-2"
+                                                            data-target="#myCarousel" data-slide-to="7">
+                                                            <img src="./images/item-img/item-8.jpg" class="img-fluid"
+                                                                alt="...">
+                                                        </div>
+                                                        <div class="col-2 px-1 py-2"></div>
+                                                        <div class="col-2 px-1 py-2"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carousel-thumbs" role="button"
+                                                data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carousel-thumbs" role="button"
+                                                data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                        <!-- /Carousel Navigation -->
+
+                                    </div>
+                                    <!-- /Carousel -->
+                                </div>
+                                <!-- /Carousel Container-->
+
+                                <!-- Action Buttons -->
+                                <div class="col-12">
+                                    <div class="btn btn-sm btn-outline-warning">
+                                        <i class="fas fa-phone fa-sm"></i>
+                                        Contact Owner
+                                    </div>
+
+                                    <div class="btn btn-sm btn-outline-dark">
+                                        <i class="fas fa-heart fa-sm"></i>
+                                        Add to Wishlist
+                                    </div>
+                                    <div class="btn btn-sm btn-outline-danger">
+                                        <i class="fas fa-gavel fa-sm"></i>
+                                        Report
+                                    </div>
+                                </div>
+                                <!-- /Action Buttons -->
+
+                            </div>
+                            <div class="col-12 col-md-6 align-self-center">
+                                <!-- Product Details Table -->
+                                <table class="table table-sm">
+                                    <tbody>
+                                        <tr>
+                                            <th class="align-baseline" style="border-top:0; width: 40%">
+                                                Category:
+                                            </th>
+                                            <td class="align-baseline" style="border-top:0; width: 60%">
+                                                Laptop
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="align-baseline" style="width: 40%">
+                                                Rental Fee:
+                                            </th>
+                                            <td class="align-baseline" style="width: 60%">
+                                                $80.00 /Hourly
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="align-baseline" style="width: 40%">
+                                                Min-rental Duration:
+                                            </th>
+                                            <td class="align-baseline" style="width: 60%">
+                                                80 Hours
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="align-baseline" style="width: 40%">
+                                                Max-rental Duration:
+                                            </th>
+                                            <td class="align-baseline" style="width: 60%">
+                                                1000 Hours
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="align-baseline" style="width: 40%">
+                                                Owner:
+                                            </th>
+                                            <td class="align-baseline" style="width: 60%">
+                                                ABM Rahman
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="align-baseline" style="width: 40%">
+                                                Address:
+                                            </th>
+                                            <td class="align-baseline" style="width: 60%">
+                                                House: 76/A, Green Road, Kathal Bagan, Dhanmondi, Dhaka City,
+                                                Dhaka-1208
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="align-baseline" style="width: 40%">
+                                                Rating
+                                            </th>
+                                            <td class="align-baseline" style="width: 60%">
+                                                <i class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                                                    class="fas fa-star mr-1"></i><i class="fas fa-star mr-1"></i><i
+                                                    class="fas fa-star mr-1"></i>
+                                                <div class="btn btn-sm btn-outline-success m-1">
+                                                    <i class="fas fa-star fa-sm"></i>
+                                                    Add Rating
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- /Product Details Table -->
+                            </div>
+                            <!-- Carousel & Product Details -->
+                        </div>
+                        <div class="col-12">
+                            <!-- Description & Comments -->
+                            <nav class="w-100">
+                                <div class="nav nav-tabs" id="product-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="product-desc-tab" data-toggle="tab"
+                                        href="#product-desc" role="tab" aria-controls="product-desc"
+                                        aria-selected="true">Description</a>
+                                    <a class="nav-item nav-link" id="product-comments-tab" data-toggle="tab"
+                                        href="#product-comments" role="tab" aria-controls="product-comments"
+                                        aria-selected="false">Comments</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="product-desc" role="tabpanel"
+                                    aria-labelledby="product-desc-tab"> Apple MacBook Pro is a macOS laptop with a
+                                    13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a
+                                    Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB
+                                    of SSD storage.
+                                    Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it comes with 2 USB
+                                    ports (2 x USB 3.0), Mic In ports.
+                                </div>
+                                <div class="tab-pane fade" id="product-comments" role="tabpanel"
+                                    aria-labelledby="product-comments-tab">
+
+
+                                    <ul class="commentList w-100">
+                                        <li>
+                                            <div class="commenterImage">
+                                                <img src="./images/dp/cat" />
+                                            </div>
+                                            <div class="commentText">
+                                                <b>Mr Temmin</b>
+                                                <p class="">Hello this is a test comment.</p> <span
+                                                    class="date sub-text">on
+                                                    March 5th, 2014</span>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="commenterImage">
+                                                <img src="./images/dp/cat" />
+                                            </div>
+                                            <div class="commentText">
+                                                <b>Mr Temmin</b>
+                                                <p class="">Hello this is a test comment and this comment is
+                                                    particularly very long and it goes on and on and on.</p> <span class="date sub-text">on March 5th,
+                                                    2014</span>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="commenterImage">
+                                                <img src="./images/dp/cat" />
+                                            </div>
+                                            <div class="commentText">
+                                                <b>Mrs Reive Jordan</b>
+                                                <p class="">Hello this is a test comment.</p> <span
+                                                    class="date sub-text">on
+                                                    March 5th, 2014</span>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <form class="form-group w-100" role="form">
+                                        <div class="form-group">
+                                            <input class="form-control w-100" type="text"
+                                                placeholder="Write a comment" />
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-outline-dark">Add Comment</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- /Description & Comments -->
+
+                            <hr>
+
+
+                            <div class="col-12">
+                                <!-- Premium Ads Items -->
+                                <div class="row d-flex justify-content-around">
+                                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 d-flex align-items-stretch p-1 m-0">
+                                        <div class="card bg-light px-0 mx-0">
+                                            <div class="card-header text-muted border-bottom-0 text-center py-0">
+                                                Apple Mac Book Pro 15``
+                                            </div>
+                                            <div class="card-body pt-0 px-0 mx-0">
+                                                <div class=" col-12 text-center my-auto premium-card-image p-0 m-0">
+                                                    <h6 class="small">Laptop</h6>
+                                                    <h6 class="small">$40000.00/hr</h6>
+                                                    <img src="./images/premium-item-1.jpg" alt="" class="img-thumbnail">
+                                                </div>
+
+                                                <div class="col-12 py-0 my-0">
+                                                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-building"></i></span> Address:
+                                                            Demo
+                                                            Street
+                                                            123, Demo City 04312, NJ</li>
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-clock"></i></span>
+                                                            Max-duration: 5 weeks</li>
+                                                    </ul>
+                                                </div>
+                                                <a href="./product-details.html" class="stretched-link p-0 m-0"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 d-flex align-items-stretch p-1 m-0">
+                                        <div class="card bg-light px-0 mx-0">
+                                            <div class="card-header text-muted border-bottom-0 text-center py-0">
+                                                Nikkon CN5007
+                                            </div>
+                                            <div class="card-body pt-0 px-0 mx-0">
+                                                <div class=" col-12 text-center my-auto premium-card-image p-0 m-0">
+                                                    <h6 class="small">Camera</h6>
+                                                    <h6 class="small">$40000.00/hr</h6>
+                                                    <img src="./images/premium-item-2.jpg" alt="" class="img-thumbnail">
+                                                </div>
+
+                                                <div class="col-12 py-0 my-0">
+                                                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-building"></i></span> Address:
+                                                            Demo
+                                                            Street
+                                                            123, Demo City 04312, NJ</li>
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-clock"></i></span>
+                                                            Max-duration: 5 weeks</li>
+                                                    </ul>
+                                                </div>
+                                                <a href="./product-details.html" class="stretched-link p-0 m-0"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 d-flex align-items-stretch p-1 m-0">
+                                        <div class="card bg-light px-0 mx-0">
+                                            <div class="card-header text-muted border-bottom-0 text-center py-0">
+                                                DJI Mavic 2 Pro
+                                            </div>
+                                            <div class="card-body pt-0 px-0 mx-0">
+                                                <div class="col-12 text-center my-auto premium-card-image p-0 m-0">
+                                                    <h6 class="small">Drone</h6>
+                                                    <h6 class="small">$40000.00/hr</h6>
+                                                    <img src="./images/premium-item-3.jpg" alt="" class="img-thumbnail">
+                                                </div>
+
+                                                <div class="col-12 py-0 my-0">
+                                                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-building"></i></span> Address:
+                                                            Demo
+                                                            Street
+                                                            123, Demo City 04312, NJ</li>
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-clock"></i></span>
+                                                            Max-duration: 5 weeks</li>
+                                                    </ul>
+                                                </div>
+                                                <a href="./product-details.html" class="stretched-link p-0 m-0"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 d-flex align-items-stretch p-1 m-0">
+                                        <div class="card bg-light px-0 mx-0">
+                                            <div class="card-header text-muted border-bottom-0 text-center py-0">
+                                                Profoto A1X AirTTL-N Studio Light
+                                            </div>
+                                            <div class="card-body pt-0 px-0 mx-0">
+                                                <div class="col-12 text-center my-auto premium-card-image p-0 m-0">
+                                                    <h6 class="small">Camera Accessories</h6>
+                                                    <h6 class="small">$40000.00/hr</h6>
+                                                    <img src="./images/premium-item-4.jpg" alt="" class="img-thumbnail">
+                                                </div>
+
+                                                <div class="col-12 py-0 my-0">
+                                                    <ul class="ml-4 mb-0 fa-ul text-muted">
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-building"></i></span> Address:
+                                                            Demo
+                                                            Street
+                                                            123, Demo City 04312, NJ</li>
+                                                        <li class="small"><span class="fa-li"><i
+                                                                    class="fas fa-lg fa-clock"></i></span>
+                                                            Max-duration: 5 weeks</li>
+                                                    </ul>
+                                                </div>
+                                                <a href="./product-details.html" class="stretched-link p-0 m-0"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /Premium Ads Item -->
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Main Contents -->
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--footer starts from here-->
+        <footer class="footer bg-dark">
+            <div class="container bottom_border">
+                <div class="row">
+                    <div class="col-sm-4 col-md col-sm-4  col-12 col">
+                        <h5 class="headtxt_ic_rental pt2">Find us</h5>
+                        <p class="mb10">IoTCage.com is a AI driven IoT Platform. Vision is to unite the world in a AI
+                            driven
+                            single platform.</p>
+                        <p><i class="fa fa-location-arrow"></i> Dhaka City, Dhaka </p>
+                        <p><i class="fa fa-phone"></i> +880-1833-182601 </p>
+                        <p><i class="fa fa fa-envelope"></i> aktar@iotcage.com </p>
+
+
+                    </div>
+
+
+                    <div class="col-sm-4 col-md  col-6 col">
+                        <h5 class="headtxt_ic_rental pt2">Quick links</h5>
+                        <ul class="footer_ul_ic_rental">
+                            <li><a href="https://iotcage.com">FAQ</a></li>
+                            <li><a href="https://iotcage.com">Create Featured Product</a></li>
+                            <li><a href="https://iotcage.com">Privacy & Policy</a></li>
+                            <li><a href="https://iotcage.com">Terms & Conditions</a></li>
+                            <li><a href="https://iotcage.com">Contact</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="col-sm-4 col-md  col-12 col">
+                        <h5 class="headtxt_ic_rental pt2">Follow us</h5>
+                        <ul class="footer_ic_rental">
+                            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                                <p>Find us on twitter <a href="#">https://iotcage.com</a></p>
+                            </li>
+                            <li><a href="#"><i class="fab fa-facebook fleft padding-right"></i> </a>
+                                <p>Find us on facebook<a href="#">https://iotcage.com</a></p>
+                            </li>
+                            <li><a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a>
+                                <p>Find us on instagram <a href="#">https://iotcage.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <p class="text-center">Copyright @2020 | Designed by <a href="https://">IoTCage.com</a></p>
+
+            </div>
+
+        </footer>
+        <!--/footer starts from here-->
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/popper-1.14.7.min.js"></script>
+    <script src="./js/bootstrap.4.3.1.min.js"></script>
+    <script src="./js/ekko-lightbox-5.3.0.js"></script>
+    <script src="./js/iotcage-rental.min.js"></script>
+    <!-- /Optional JavaScript -->
+
+
+
+
+
+
+
+</body>
+
+</html>

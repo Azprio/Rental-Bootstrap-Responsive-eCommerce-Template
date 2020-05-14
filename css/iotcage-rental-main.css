@@ -1,0 +1,318 @@
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.jumbotron {
+  background-image: url("../images/jumbotron-bg.jpg");
+  background-size: cover;
+}
+
+.acik-renk-form {
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.siyah-cerceve {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.card-header {
+  min-height: 50px;
+}
+
+.premium-card-image {
+  height: 230px;
+}
+
+.img-thumbnail {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+
+.show-read-more .more-text {
+  display: none;
+}
+
+.main-page-bottom-menu {
+  list-style-type: none;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    -webkit-column-count: 4;
+            column-count: 4;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+    -webkit-column-count: 5;
+            column-count: 5;
+  }
+}
+
+/*footer*/
+.headtxt_ic_rental {
+  color: #FFF;
+}
+
+footer {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px 0px 1px 0px;
+}
+
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #CCC;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.footer_ul_ic_rental {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_ic_rental li {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_ic_rental li a {
+  color: #CCC;
+}
+
+.footer_ul_ic_rental li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fleft {
+  float: left;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ic_rental {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer_ic_rental li p {
+  display: table;
+}
+
+.footer_ic_rental li a:hover {
+  text-decoration: none;
+}
+
+.footer_ic_rental li i {
+  margin-top: 5px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#carousel-thumbs {
+  background: rgba(255, 255, 255, 0.3);
+  bottom: 0;
+  padding: 0;
+}
+
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+
+#carousel-thumbs img:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+#carousel-thumbs .selected img {
+  border-color: #fff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.commentList::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.commentList {
+  -ms-overflow-style: none;
+}
+
+.commentList {
+  padding: 0;
+  list-style: none;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.commentList li {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.commentList li > div {
+  display: table-cell;
+}
+
+.commenterImage {
+  width: 30px;
+  margin-right: 5px;
+  height: 100%;
+  float: left;
+}
+
+.commenterImage img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.commentText p {
+  margin: 0;
+}
+
+.sub-text {
+  color: #aaa;
+  font-family: verdana;
+  font-size: 11px;
+}
+
+/* Pagination Portion at Product-listing Page */
+/* CSS for Creat Account Tel Form */
+.intl-tel-input {
+  display: table-cell;
+}
+
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+
+.pagination {
+  padding: 20px;
+}
+
+.pagination,
+.pagination * {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.pagination a.disabled {
+  opacity: .3;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.pagination a.current {
+  background: #f3f3f3;
+}
+
+.intl-tel-input {
+  display: table-cell;
+}
+
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+
+.input-group .intl-tel-input {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+/*# sourceMappingURL=iotcage-rental-main.css.map */

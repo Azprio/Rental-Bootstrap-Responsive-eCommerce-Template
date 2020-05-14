@@ -18,7 +18,7 @@
 - Sign Up, Login pages
 - Responsive Item Post page design
 ## Demo Preview :
-*Visit http://iotcage.com/templates/rental/*
+*Visit https://iotcage.com/templates/rental/*
 ## References :
 - Bootstrap 4.3.1
 - Jquery 2.1.3 & 3.4.1

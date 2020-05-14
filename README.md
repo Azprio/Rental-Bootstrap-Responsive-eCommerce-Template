@@ -1,6 +1,6 @@
 <img src="images/rentallbd-logo.png" width="200px" >
 
-# ***Rental*** - *Bootstrap 4.3.1 HTML Template*
+# ***Rental*** - *Bootstrap 4.3.1 HTML Free Template*
 ## Responsive HTML template for classifieds, Rental, e-commerce websites
 ## Features :
 - Free to use
